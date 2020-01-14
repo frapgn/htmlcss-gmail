@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.background-color-black {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+body {
+    /* background-image: url("http://lh3.googleusercontent.com/-5yUfqyB_fmA/Ux3pCsJPAmI/AAAAAAAABdQ/DQSemh2w_YI/s1920/sfondo-wallpaper-spazio-universo-0023.jpg"); */
+    background-image: url("../img/sfondo.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+header {
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(67, 133, 244, 0.5);
+    /* background-image: url("../img/sfondo.jpg"); */
+}
+
+main {
+    border-bottom: 2px solid rgba(67, 133, 244, 0.5);
+    min-height: 300px;
+    /* background-image: url("../img/sfondo.jpg"); */
+}
+
+.form-container {
+    text-align: center;
+    padding: 200px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 600px;
+    border-bottom: 2px solid rgba(67, 133, 244, 0.5);
+}
+
+.login-field {
+    border: 3px solid rgba(67, 133, 244, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.login-field::placeholder {
+    text-align: center;
+}
+
+.submit-button {
+    color: 111111;
+    border-color: rgba(67, 133, 244, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+    width: 80px;
+}
+
+#scroll-down-text {
+    color: white;
+    margin: 100px;
+    font-size: 40px;
+}
+
+input {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#email-list {
+    padding: 30px 60px;
+    margin: 0 15px;
+
+}
+
+h2 {
+    margin: 30px 0;
+}
+
+#logo-area {
+    height: 60px;
+    padding: 0 60px;
+}
+
+#logo {
+    height: 34px;
+    margin: 15px;
+}
+
+#search-area {
+    padding: 0 60px;
+    margin: 15px;
+}
+
+.search-item {
+    height: 40px;
+    width: 300px;
+    border: 3px solid rgba(67, 133, 244, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+    pla
+}
+
+::placeholder {
+    font-weight: 600;
+}
+
+#unread-messages {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 0 60px;
+    margin: 15px;
+}
+
+#unread-number {
+    color: #dc4d41;
+    background-color: rgba(67, 133, 244, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.email-preview-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 25px;
+    margin: 2px 0;
+    border-radius: 2px;
+}
+
+.star {
+    padding: 0 8px;
+}
+
+.email-preview-content {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.email-object {
+    margin-right: 100px;
+}
+
+.email-object-read {
+    color: rgba(127, 126, 126, 0.5)
+}
+
+.email-read {
+    color: #7F7E7E;
+    font-weight: 500;
+}
